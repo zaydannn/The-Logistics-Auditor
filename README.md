@@ -4,8 +4,8 @@ Furthermore, beyond immediate feedback, these logistics failures significantly d
 This suggests that, delivery inefficiencies and ineffectiveness, actually affects brand reputation, customer retention which may in effect damage profitability.
 
 
-
-
+# Link to streamlit dashboard
+https://ml-project-gzj6bejrel6ylpcudvtmt2.streamlit.app/
 
 
 # Project Brief: The "Last Mile" Logistics Auditor
