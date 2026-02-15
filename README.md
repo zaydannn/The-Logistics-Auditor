@@ -8,6 +8,20 @@ This suggests that, delivery inefficiencies and ineffectiveness, actually affect
 https://ml-project-gzj6bejrel6ylpcudvtmt2.streamlit.app/
 
 
+# Data Cleaning Techniques
+Removing Duplicates: The raw reviews dataset contained multiple reviews for some orders. I sorted these by the latest timestamp and kept only the most recent review for each unique order_id to ensure each customer's final sentiment and review was captured once.
+Handling Incomplete Orders: Since the goal was to analyze actual delivery performance, I filtered out orders that did not have a recorded 'order_delivered_customer_date'. This removed "canceled" or "in-progress" orders that would have altered the delay calculations.
+I created a new Days_Difference metric and a Delivery_Status categorical column. This turned raw timestamps into actionable labels like "On Time," "Late," and "Super Late" for the final visualization.
+I also created a retention_% column to actally map how delays affect churn.
+Standardizing Formats: I converted all date-related columns (estimated and actual delivery dates) into datetime objects. This allowed for precise mathematical calculations of the time delta between when a package was promised and when it arrived.
+
+
+
+# Candidate's choice addition (Customer Retention vs Review/Sentiments)
+I decided to opt for this because it is easily used for managerial decision making. We can visually see the rate at which new customers leave or stay depending on the delivery time of their package.
+This analysis evaluates how first delivery experience affects customer retention. Customers whose first order was delivered on time are compared against those who experienced delays. The retention rate is calculated as the percentage of customers who returned to make another purchase. The results help determine whether delivery performance influences long-term customer loyalty.
+
+
 # Project Brief: The "Last Mile" Logistics Auditor
 
 **Client:** Veridi Logistics (Global E-Commerce Aggregator)  
