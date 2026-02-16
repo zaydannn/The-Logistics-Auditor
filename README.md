@@ -21,4 +21,5 @@ Standardizing Formats: I converted all date-related columns (estimated and actua
 I decided to opt for this because it is easily used for managerial decision making. We can visually see the rate at which new customers leave or stay depending on the delivery time of their package.
 This analysis evaluates how first delivery experience affects customer retention. Customers whose first order was delivered on time are compared against those who experienced delays. The retention rate is calculated as the percentage of customers who returned to make another purchase. The results help determine whether delivery performance influences long-term customer loyalty.
 
-
+# Powerpint Link
+https://1drv.ms/p/c/98d0db72bd603a77/IQDycs7kKiRpSJeZrlItZ5UGARhZ1x3AT3QFS1B5cfH7XlY?e=Erewt2
